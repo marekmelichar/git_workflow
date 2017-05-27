@@ -14,7 +14,7 @@ git checkout new-feature
 git checkout master
 
 ### - merging branch to master
-`
+```
 git checkout master
 git pull origin master
 git merge new-feature
@@ -27,4 +27,4 @@ git pull
 git checkout master
 git pull
 git merge --no-ff --no-commit new-feature
-`
+```
