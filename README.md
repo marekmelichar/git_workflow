@@ -8,8 +8,9 @@ git commit -am "commit message"
 git push -u origin new-feature
 ```
 
-### - last updated version of code : git pull origin master
+### - last updated version of code :
 ```
+git pull origin master
 will do fetch and merge in one
 ```
 
