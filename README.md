@@ -29,8 +29,8 @@ git push origin master
 or
 
 git checkout new-feature
-git pull
+git pull origin master
 git checkout master
-git pull
+git pull origin master
 git merge --no-ff --no-commit new-feature
 ```
