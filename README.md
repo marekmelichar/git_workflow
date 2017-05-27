@@ -26,11 +26,13 @@ git pull origin master
 git merge new-feature
 git push origin master
 
-or
+or the safe way without auto-merge :
 
 git checkout new-feature
 git pull origin master
 git checkout master
 git pull origin master
 git merge --no-ff --no-commit new-feature
+git commit -am "commit message"
+git push origin master
 ```
