@@ -4,7 +4,8 @@
 ```
 git checkout -b new-feature
 ...work on a branch
-git commit -am "commit message"
+git add .
+git commit -m "commit message"
 git push -u origin new-feature
 ```
 
@@ -22,18 +23,14 @@ git checkout master
 
 ### - merging branch to master
 ```
-git checkout master
-git pull origin master
-git merge new-feature
-git push origin master
-
-or the safe way without auto-merge :
+the safe way without auto-merge :
 
 git checkout new-feature
 git pull origin master
 git checkout master
 git pull origin master
 git merge --no-ff --no-commit new-feature
-git commit -am "commit message"
-git push origin master
+git add .
+git commit -m "commit message"
+git push -u origin master
 ```
