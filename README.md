@@ -2,7 +2,7 @@
 
 ### - new branch
 ```
-git checkout -b new-feature
+git checkout -b new_branch old_branch -> will create a branch from old_branch
 ...work on a branch
 git add .
 git commit -m "commit message"
