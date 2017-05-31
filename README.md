@@ -39,3 +39,8 @@ git add .
 git commit -m "commit message"
 git push -u origin master
 ```
+
+### - going back to certain commit
+```
+git reset --hard <SHAsum of commit>
+```
