@@ -9,6 +9,11 @@ git commit -m "commit message"
 git push -u origin new-feature
 ```
 
+### - delete branch
+```
+git branch -d the_local_branch
+```
+
 ### - last updated version of code :
 ```
 git pull origin master
