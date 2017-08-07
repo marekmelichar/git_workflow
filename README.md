@@ -44,3 +44,8 @@ git push -u origin master
 ```
 git reset --hard <SHAsum of commit>
 ```
+
+### - pulling last changes from remote repository into local repository
+```
+git pull origin master
+```
