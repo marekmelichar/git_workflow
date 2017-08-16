@@ -49,3 +49,8 @@ git reset --hard <SHAsum of commit>
 ```
 git pull origin master
 ```
+
+### - list only local branches
+```
+git branch
+```
