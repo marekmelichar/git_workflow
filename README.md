@@ -55,3 +55,8 @@ git pull origin master
 ```
 git branch
 ```
+
+### - This is used to throw away local changes.
+```
+git checkout -f master
+```
